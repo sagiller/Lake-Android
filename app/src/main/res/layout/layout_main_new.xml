@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/main_new_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/px_66_to_dip"
+        android:paddingLeft="@dimen/px_50_to_dip"
+        android:paddingRight="@dimen/px_50_to_dip"
+        android:paddingTop="@dimen/px_66_to_dip"
+        android:src="@mipmap/btn_back"/>
+
+    <TextView
+        android:id="@+id/main_new_tv_new"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/px_326_to_dip"
+        android:text="@string/main_new"
+        android:textColor="@color/white"
+        android:textSize="@dimen/px_108_to_sp"/>
+
+    <EditText
+        android:id="@+id/main_new_et_ip"
+        style="@style/edittext_in_main_page"
+        android:layout_below="@id/main_new_tv_new"
+        android:layout_marginTop="@dimen/px_130_to_dip"
+        android:digits="0123456789."
+        android:hint="@string/ip_address"
+        android:inputType="number"
+        android:singleLine="true"/>
+
+    <EditText
+        android:id="@+id/main_new_et_password"
+        style="@style/edittext_in_main_page"
+        android:layout_below="@id/main_new_et_ip"
+        android:layout_marginTop="@dimen/px_32_to_dip"
+        android:hint="@string/password"
+        android:inputType="textPassword"/>
+
+    <ImageView
+        android:id="@+id/main_new_btn_connect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/main_new_et_password"
+        android:layout_marginRight="@dimen/px_70_to_dip"
+        android:layout_marginTop="@dimen/px_78_to_dip"
+        android:src="@mipmap/btn_next"/>
+</RelativeLayout>

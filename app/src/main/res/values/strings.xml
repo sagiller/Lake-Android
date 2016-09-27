@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Lake</string>
+    <string name="main_new">NEW</string>
+    <string name="main_join">JOIN</string>
+    <string name="ip_address">IP ADDRESS</string>
+    <string name="password">PASSWORD</string>
+    <string name="please_input_ip">Please input IP</string>
+    <string name="please_input_password">Please input password</string>
+    <string name="please_verify_ip">Please verify ip.</string>
+    <string name="please_verify_ip_password">Please verify ip and password.</string>
+    <string name="no_sd_card">There is no SD card.</string>
+    <string name="image_save_success">Screenshot is saved in Lake folder in SD card.</string>
+    <string name="confirm_exit">Exit image view?</string>
+    <string name="yes">Yes</string>
+    <string name="cancel">Cancel</string>
+</resources>

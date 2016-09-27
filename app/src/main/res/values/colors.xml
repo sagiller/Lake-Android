@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#FF000000</color>
+
+    <!--0为完全透明,255为不透明-->
+    <color name="full_transparent">#00000000</color>
+    <color name="white_with_transparent_40">#66FFFFFF</color>
+
+
+    <!--特定的颜色-->
+    <color name="list_item_bg_transparent_60">#99242742</color>
+    <color name="list_item_font_transparent_90">#E6cfd9e5</color>
+    <color name="imageview_bg_start">#181b1d</color>
+    <color name="imageview_bg_end">#586065</color>
+    <color name="imageview_bg_single">#2e2f31</color>
+</resources>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.capgemini.psclient.ui.customviews.ObservableScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/main_btn_setting"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginRight="@dimen/px_52_to_dip"
+                android:layout_marginTop="@dimen/px_90_to_dip"
+                android:src="@mipmap/ic_launcher"/>
+
+            <TextView
+                android:id="@+id/SE"
+                style="@style/text_in_main_page"
+                android:layout_marginTop="@dimen/px_110_to_dip"
+                android:text="SE"/>
+
+            <TextView
+                android:id="@+id/LECT"
+                style="@style/text_in_main_page"
+                android:layout_below="@id/SE"
+                android:text="LECT"/>
+
+            <TextView
+                android:id="@+id/A"
+                style="@style/text_in_main_page"
+                android:layout_below="@id/LECT"
+                android:text="A"/>
+
+            <TextView
+                android:id="@+id/CONNEC"
+                style="@style/text_in_main_page"
+                android:layout_below="@id/A"
+                android:text="CONNEC"/>
+
+            <TextView
+                android:id="@+id/T"
+                style="@style/text_in_main_page"
+                android:layout_below="@id/CONNEC"
+                android:text="T"/>
+
+            <TextView
+                android:id="@+id/ION"
+                style="@style/text_in_main_page"
+                android:layout_below="@id/T"
+                android:text="ION"/>
+
+            <ImageView
+                android:id="@+id/main_btn_add_new"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/ION"
+                android:layout_toRightOf="@id/ION"
+                android:padding="@dimen/px_26_to_dip"
+                android:src="@mipmap/btn_newconnection"/>
+        </RelativeLayout>
+
+        <com.capgemini.psclient.ui.customviews.ListViewInScrollView
+            android:id="@+id/main_listview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/px_78_to_dip"
+            android:layout_marginRight="@dimen/px_78_to_dip"
+            android:layout_marginTop="@dimen/px_54_to_dip"
+            android:divider="@null"
+            android:listSelector="@color/full_transparent"/>
+    </LinearLayout>
+</com.capgemini.psclient.ui.customviews.ObservableScrollView>

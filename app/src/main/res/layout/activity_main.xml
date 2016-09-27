@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/pic_homebg">
+
+    <com.capgemini.psclient.ui.customviews.WaveView
+        android:id="@+id/main_waveview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <include
+        android:id="@+id/main_root"
+        layout="@layout/layout_main_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <include
+        android:id="@+id/main_new"
+        layout="@layout/layout_main_new"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <include
+        android:id="@+id/main_join"
+        layout="@layout/layout_main_join"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</FrameLayout>
